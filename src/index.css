@@ -4,9 +4,18 @@
 
 
 CSS  is here
-*{
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
-  background-color: #d2dbdd;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(116, 163, 204);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#fcf5f5, #eff4fd);
 }

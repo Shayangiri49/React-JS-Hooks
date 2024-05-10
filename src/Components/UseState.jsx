@@ -8,7 +8,7 @@ export const UseState = () => {
   };
   let decrement = () => {
     if (count <= 0) {
-      return;
+      alert("Sorry Zero limit reached")
     } else {
       setCount(count - 1);
     }
